@@ -308,8 +308,6 @@ class NetworkApp:
         self.status_label.config(text=message, fg=color_map.get(status_type, self.colors['text_secondary']))
         if status_type != 'primary': self.root.after(5000, lambda: self.update_status("✅ Listo"))
 
-# CORRECCIÓN CRÍTICA: La inicialización de la app debe estar dentro de este bloque
-# para permitir que el módulo sea importado sin ejecutar la GUI.
 if __name__ == "__main__":
     try:
         root = tk.Tk()
