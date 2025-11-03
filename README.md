@@ -4,6 +4,25 @@ Network Tools Pro es un conjunto completo de herramientas de diagnóstico y util
 
 ![Captura de pantalla de Network Tools Pro](hub.png)
 
+## Estructura del Proyecto
+
+```
+│   command_runner.py
+│   config.json
+│   enhanced_features.py
+│   main.py
+│   tool_definitions.py
+│   utils.py
+```
+
+## Explicación de los Archivos Python
+
+-   **`main.py`**: Archivo principal que inicia la aplicación. Crea la interfaz gráfica de usuario (GUI) con Tkinter, gestiona el estado general de la aplicación y une todos los demás componentes. La clase `NetworkApp` es el núcleo de la aplicación.
+-   **`command_runner.py`**: Se encarga de ejecutar los comandos de red. Utiliza el módulo `subprocess` para correr comandos externos y maneja hilos para no bloquear la GUI. También incluye lógica para manejar tiempos de espera, permisos y dar sugerencias para comandos mal escritos. Define la clase `CommandRunner`.
+-   **`tool_definitions.py`**: Contiene las definiciones de todas las herramientas de red disponibles en la aplicación. Es un diccionario que mapea los nombres de las herramientas a sus descripciones, parámetros y los comandos a ejecutar. También maneja las variaciones de comandos específicas del sistema operativo.
+-   **`enhanced_features.py`**: Agrega funcionalidades extra a la aplicación, como un gestor de comandos por lotes y notificaciones del sistema. La clase `EnhancedNetworkApp` envuelve la aplicación base para añadir estas nuevas características.
+-   **`utils.py`**: Proporciona varias funciones de utilidad. Incluye la clase `NetworkUtils` con métodos para validar IPs y dominios, obtener la IP local y la puerta de enlace, y realizar diagnósticos de red. También tiene un `ConfigManager` para cargar y guardar la configuración de la aplicación, y un `OutputFormatter` para dar estilo a la salida de los comandos.
+
 ## Características
 
 Network Tools Pro incluye una variedad de herramientas, tanto para diagnóstico como para gestión de redes:
@@ -97,4 +116,5 @@ Creado por: Ez07-Code
 
 
 GitHub: https://github.com/Ez07-Code
+
 
