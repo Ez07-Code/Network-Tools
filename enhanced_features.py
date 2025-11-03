@@ -1,4 +1,3 @@
-# enhanced_features.py - Nuevas características para Network Tools Pro
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog, scrolledtext
 import matplotlib.pyplot as plt
