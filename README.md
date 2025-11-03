@@ -69,17 +69,17 @@ Para ejecutar la aplicación, simplemente ejecuta el script `main.py`:
 python main.py
 ```
 
-Crear un Ejecutable
+## Crear un Ejecutable
 
 Para crear un ejecutable independiente (.exe para Windows), puedes usar pyinstaller.
 
-    Asegúrate de que pyinstaller está instalado:
+**Asegúrate de que pyinstaller está instalado:**
     
 ```bash
 pip install pyinstaller
 ```
 
-Ejecuta el comando pyinstaller:
+**Ejecuta el comando pyinstaller:**
 
 El siguiente comando creará un único archivo ejecutable en el directorio dist. El flag --noconsole evita que aparezca la ventana de comandos cuando ejecutes el ejecutable, y el flag --onefile empaqueta todo en un solo archivo. El flag --icon establece el icono de la aplicación.
 
@@ -87,13 +87,14 @@ El siguiente comando creará un único archivo ejecutable en el directorio dist.
 pyinstaller --name "Network Tools Pro" --onefile --windowed --icon="hub.ico" main.py
 ```
 
-    Encuentra el ejecutable:
+**Encuentra el ejecutable:**
 
-    El ejecutable se ubicará en la carpeta dist.
+**El ejecutable se ubicará en la carpeta dist.**
 
 Autor
 
 Creado por: Ez07-Code
 
 
-    GitHub: https://github.com/Ez07-Code
+GitHub: https://github.com/Ez07-Code
+
