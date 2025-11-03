@@ -1,6 +1,6 @@
-# Network Tools Pro
+# Network Tools
 
-Network Tools Pro is a comprehensive suite of network diagnostic and utility tools, designed with a modern and user-friendly graphical interface. This application provides a one-stop solution for network professionals and enthusiasts to perform common network tasks efficiently.
+Network Tools is a comprehensive suite of network diagnostic and utility tools, designed with a modern and user-friendly graphical interface. This application provides a one-stop solution for network professionals and enthusiasts to perform common network tasks efficiently.
 
 ![Network Tools Pro Screenshot](hub.png)
 
