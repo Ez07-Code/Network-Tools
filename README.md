@@ -1,10 +1,6 @@
 # Network Tools
 
-<<<<<<< HEAD
 Network Tools Pro es un conjunto completo de herramientas de diagnóstico y utilidades de red, diseñado con una interfaz gráfica moderna y fácil de usar. Esta aplicación proporciona una solución integral para profesionales y entusiastas de las redes que necesitan realizar tareas comunes de red de manera eficiente.
-=======
-Network Tools is a comprehensive suite of network diagnostic and utility tools, designed with a modern and user-friendly graphical interface. This application provides a one-stop solution for network professionals and enthusiasts to perform common network tasks efficiently.
->>>>>>> 8afed302cdf8c4d8505b012f5d7e55131b368728
 
 ![Captura de pantalla de Network Tools Pro](hub.png)
 
@@ -98,5 +94,6 @@ pyinstaller --name "Network Tools Pro" --onefile --windowed --icon="hub.ico" mai
 Autor
 
 Creado por: Ez07-Code
+
 
     GitHub: https://github.com/Ez07-Code
