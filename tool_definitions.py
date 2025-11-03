@@ -140,6 +140,4 @@ if OS_TYPE != "windows":
     if "PATHPING" in TOOLS: del TOOLS["PATHPING"]
     if "NETSH" in TOOLS: del TOOLS["NETSH"]
     if "TRACERT" in TOOLS:
-        # En Linux/macOS, ifconfig puede no estar por defecto, ip addr es el moderno.
-        # Por simplicidad, mantenemos ifconfig, pero en una app real se podría mejorar.
         pass
