@@ -2,7 +2,7 @@
 
 Network Tools Pro es un conjunto completo de herramientas de diagnóstico y utilidades de red, diseñado con una interfaz gráfica moderna y fácil de usar. Esta aplicación proporciona una solución integral para profesionales y entusiastas de las redes que necesitan realizar tareas comunes de red de manera eficiente.
 
-![Captura de pantalla de Network Tools Pro](hub.png)
+![Captura de pantalla de Network Tools Pro](networktools.png)
 
 ## Estructura del Proyecto
 
@@ -116,5 +116,6 @@ Creado por: Ez07-Code
 
 
 GitHub: https://github.com/Ez07-Code
+
 
 
